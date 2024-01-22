@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+    background-color: rgb(68, 67, 67);
+    }
+
+    .contenedor{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-left: 125px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    p:nth-child(2){
+      font-size: 25px;
+    }
+
+    p:nth-child(3){
+      color: rgb(179, 255, 0);
+      font-size: 15px;
+      margin-top: -20px;
+    }
+
+    .social-links{
+      width: 300px;
+      height: 400px;
+      background-color: rgb(29, 29, 29);
+      border-radius: 10px;
+    }
+
+    .boton{
+    width: 200px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    border-bottom: none;
+    }
+
+  </style>
+</head>
+<body>
+   <div class="contenedor">
+    <div class="social-links">
+      <img src="./imagenes/neri.jpg" alt="">
+      <p class="name">Jean Carlo Neri</p>
+      <p class="London">Zapopan, Jalisco México</p>
+      <p class="front">"Desarrollador Front-end."</p>
+      <div class="botones">
+        <a href="https://github.com"> <button class="boton">  GitHub</button></a>
+        <a href="https://www.frontendmentor.io/"><button class="boton">Frontend Mentor</button></a> 
+        <a href="https://mx.linkedin.com/"><button class="boton">LinkedIn</button></a> 
+        <a href="https://twitter.com/"><button class="boton">Twitter</button></a> 
+        <a href="https://www.instagram.com"><button class="boton">Instagram</button></a> 
+       </div>
+    </div>
+   </div>
+  
+</body>
+</html>
